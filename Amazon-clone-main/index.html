@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Css/style.css">
+  <link rel="icon" href="thumbnail-logo.jpg" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/f28657ed69.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+  <title>Amazon Clone</title>
+</head>
+
+<body style="background-color:#eae4e4">
+  <header>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-xl-1">
+          <div class="logo"><a href="index.html"><img src="images/amazon_clone_logo.png" alt="amazon_clone_logo"></a>
+          </div>
+        </div>
+        <div class="col-xl-2">
+          <a href="#" class="nav-global-location" id="location">
+            <span style="font-size:12px;margin-left:15px;color:white;text-decoration: none;">Hello <br></span><i
+              class="fa fa-map-marker" aria-hidden="true"
+              style="font-size:20px;margin:0 2px;color:white"></i><span><b>Select Your Address</b></span>
+          </a>
+        </div>
+        <div class="col-xl-5">
+          <form action="#">
+            <div class="search-box">
+              <input type="search">
+              <i class="fa fa-search"></i>
+            </div>
+          </form>
+        </div>
+        <div class="col-xl-4">
+          <nav>
+            <a href="#" title="Country: India">
+              <span><img src="images/india-flag.png" alt="country-flag"
+                  style="margin-top:5px; height:30px; width:30px;"></span>
+            </a>
+            <a href="Signin.html">
+              <span>Hello, Sign in</span>
+              <span>Accounts & Lists</span>
+            </a>
+            <a href="#">
+              <span>Returns</span>
+              <span>& Orders</span>
+            </a>
+            <div class="cart">
+              <a href="#">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Cart</span>
+              </a>
+              <small>0</small>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Carousel -->
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="images/Banner1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="images/Banner2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/Banner3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- cards  -->
+
+  <div class="container-fluid">
+    <!-- card 1 -->
+    <div class="card-group">
+      <div class="card m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Book Tickets For Essential Travel</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card1.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Flight Tickets</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card2.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Bus Tickets</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card3.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Train Tickets</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card4.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Essential travel products</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">Explore more from Amazon Pay</a>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Essential Stuff</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card5.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Cleaning essentials</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card6.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Immunity & Healthcare</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card7.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Women Personalcare</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card8.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Men's Grooming</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See more</a>
+      </div>
+
+      <!-- card 3 -->
+
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Chocolates, Sweets & more</h5>
+          <div class="row row-cols-1 row-cols-lg-1 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card9.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See more</a>
+      </div>
+    </div>
+
+    <!-- card group for more content -->
+
+    <div class="card-group">
+
+      <!-- card 4 -->
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Pay your credit card bills on Amazon</h5>
+          <div class="row row-cols-1 row-cols-lg-1 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card18.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">Pay Now using Amazon</a>
+      </div>
+
+      <div class="card m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Styles for Men | Up to 70% off</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card10.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Clothing</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card11.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Footwear</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card12.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Watches</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card13.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Bags & luggage</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">View All Offers</a>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Shop by Category</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card14.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Juices & Vegetables</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card15.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Mobiles</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card16.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Fashion</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card17.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Electronic</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See more</a>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- end of cards -->
+
+  <!-- General Section -->
+  <div class="container-fluid">
+    <div class="card-group">
+      <div class="card m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Amazon's response to COVID-19</h5>
+          <div class="row">
+            <div class="col-4 col-md-2 mb-2">
+              <div class="card" style="border:none;">
+                <img src="images/section/image1.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mb-2">
+              <div class="card" style="border:none;">
+                <img src="images/section/image2.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mb-2">
+              <div class="card" style="border:none;">
+                <img src="images/section/image3.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mb-2">
+              <div class="card" style="border:none;">
+                <img src="images/section/image4.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="card" style="border:none;">
+                <img src="images/section/image5.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="card" style="border:none;">
+                <img src="images/section/image6.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner section   -->
+  <div class="container-fluid">
+    <img src="images/sectionbannner.jpg" class="img-fluid" width="150%" alt="Section Bannner">
+  </div>
+
+  <!-- end of banner section -->
+
+  <!-- Another card section -->
+
+  <div class="container-fluid">
+    <!-- card 1 -->
+    <div class="card-group">
+      <div class="card m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Experience hands-free entertainment</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card" style="border:none">
+                <img src="images/card/card19.jpg" style="height:110px;width:160px;" class="card-img-top" alt="...">
+              </div>
+              <small>Echo Dot | Listen to your favourite music & more</small>
+            </div>
+            <div class="col">
+              <div class="card" style="border:none">
+                <img src="images/card/card20.jpg" style="height:110px;width:160px;" class="card-img-top" alt="...">
+              </div>
+              <small>Fire TV Stick Lite | Stream on your TV</small>
+            </div>
+            <div class="col">
+              <div class="card" style="border:none">
+                <img src="images/card/card21.jpg" style="height:110px;width:160px;" class="card-img-top" alt="...">
+              </div>
+              <small>Echo smart display | Hands-free video calling</small>
+            </div>
+            <div class="col">
+              <div class="card" style="border:none">
+                <img src="images/card/card22.jpg" style="height:110px;width:160px;" class="card-img-top" alt="...">
+              </div>
+              <small>All-new Echo | Powered by Dolby</small>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">Explore more</a>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Cookware & dining</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card23.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Gas Stoves</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card24.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Cookware</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card25.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Kitchen storage</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card26.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Tableware</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See more</a>
+      </div>
+
+      <!-- card 3 -->
+
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Masks Combo | Below ₹299</h5>
+          <div class="row row-cols-1 row-cols-lg-1 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card27.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See more</a>
+      </div>
+    </div>
+
+    <!-- card group for more content -->
+
+    <div class="card-group">
+
+      <!-- card 4 -->
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Up to 45% off | Bedding & linen | Amazon Brands</h5>
+          <div class="row row-cols-1 row-cols-lg-1 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card28.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See all Offers</a>
+      </div>
+
+      <div class="card m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Fashion clearance store | 50% - 70% off</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card29.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Clothing</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card30.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Footwear</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card31.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>Watches , Jewellery & more</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card32.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;View the Store</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">View all</a>
+      </div>
+
+      <!-- card 2 -->
+
+      <div class="card  m-2">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Handpicked products for your baby</h5>
+          <div class="row row-cols-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card33.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Newborn Baby Store</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card34.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Diapers & Wipes</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card35.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;Premium Baby Store</p>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/card/card36.jpg" class="card-img-top" alt="...">
+              </div>
+              <p>&nbsp;All Baby Products</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" style="padding:10px; text-decoration: none;">See more</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <!-- Footer -->
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 footer-about">
+          <h3><img src="images/amazon_clone_logo.png" height="70"></h3>
+          <p>
+            We are a young company always looking for new and creative ideas to help you with our
+            products in your everyday work.
+          </p>
+        </div>
+        <div class="col-md-4 offset-md-1 footer-contact">
+          <h3>Contact</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Via Rossini 10, 10136 Turin Italy</p>
+          <p><i class="fas fa-phone"></i> Phone: (0039) 333 12 68 347</p>
+          <p><i class="fas fa-envelope"></i> Email: <a href="#">amazonmail@gmail.com</a></p>
+        </div>
+        <div class="col-md-4 footer-links">
+          <div class="row">
+            <div class="col">
+              <h3>Links</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p><a class="scroll-link" href="#top-content">Home</a></p>
+              <p><a href="#">Features</a></p>
+              <p><a href="#">How it works</a></p>
+              <p><a href="#">Our clients</a></p>
+            </div>
+            <div class="col-md-6">
+              <p><a href="#">Plans &amp; pricing</a></p>
+              <p><a href="#">Affiliates</a></p>
+              <p><a href="#">Terms</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 footer-copyright display-4" style="font-size:25px;">
+          &copy; Copyright 2021 <a href="#"> | Amazon.in</a>
+        </div>
+        <div class="col-md-6 footer-social">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://google.com/" target="_blank"><i class="fab fa-google"></i></a>
+          <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end of the footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
